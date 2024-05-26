@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Quotable</title>
+    <!-- Meta tags for Twitter -->
+    <meta name="twitter:description"
+        content="Get instant quotes at your fingertips with Quote Generato. Our simple web app provides a quick and easy way to find the perfect words for any occasion.">
+    <meta name="twitter:image" content="assets/img/512x512.png">
+
+    <!-- Meta tags for Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/512x512.png">
+
+    <!-- Meta tag for general description -->
+    <meta name="description"
+        content="Get instant quotes at your fingertips with Quote Generato. Our simple web app provides a quick and easy way to find the perfect words for any occasion.">
+
+    <!-- Meta tags for Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Quotable">
+
+    <!-- Links to various icon sizes -->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/180x180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/32x32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/512x512.png">
+
+    <!-- Link to stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Link to web app manifest file -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Preconnect hints for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Link to Google Fonts stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link to Font Awesome stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+<body>
+    <!-- Quote Container -->
+    <div class="quote-container" id="quote-container">
+        <!-- Quote Text -->
+        <div class="quote-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author Text -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This Quote!">
+                <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button id="new-quote" title="Generate New Quote">Generate</button>
+        </div>
+    </div>
+    <!-- Script tag to include JavaScript file -->
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
